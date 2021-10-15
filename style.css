@@ -1,0 +1,242 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 2vw 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+h4 {
+    margin: 2vw 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+p {
+    margin: 2vw 0;
+}
+
+button {
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    padding: 5vw 5vw;
+    border-radius: 10vw;
+    margin: 5vw 0;
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 700;
+}
+input {
+    border: none;
+    margin: 5vw 0;
+    padding: 5vw 10vw;
+    border-radius: 10vw;
+}
+
+.navbar {
+    margin: 5vw 5vw;
+    padding: 5vw;
+    background: url("images/logo.svg") left no-repeat;
+    background-size: 25vw;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-align: end;
+}
+.nav-item {
+    margin: 0 5px;
+}
+
+.component1 {
+    display: flex;
+    flex-direction: column;
+    margin: 3vw 5vw;
+    padding: 5vw 5vw;
+}
+.image{
+    max-width: 350px;
+    align-self: center;
+}
+
+.component2 {
+    display: flex;
+    flex-direction: column;
+    margin: 3vw 5vw;
+    padding: 0;
+    align-items: center;
+}
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 5vw 5vw;
+    align-items: center;
+}
+.viewDesk {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.component3 {
+    display: flex;
+    flex-direction: column;
+    margin: 3vw 5vw;
+    padding: 5vw 5vw;
+    text-align: left;
+}
+.item-3 {
+    color: hsl(176, 68%, 64%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-left: 0;
+    text-decoration: underline;
+}
+
+.component4 {
+    background: hsl(219, 30%, 18%);
+    margin: 3vw 5vw;
+    padding: 5vw 5vw;
+    text-align: initial;
+}
+.item-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.titles {
+    margin: 0 4vw;
+    padding: 0;
+}
+
+.component5 {
+    background: hsl(217, 28%, 15%);
+    margin: 10vw 5vw;
+    padding: 5vw 5vw;
+}
+.item-5 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 5vw;
+}
+
+.styleFooter {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background: url("images/logo.svg") top no-repeat;
+    background-size: 25vw;
+    background-position-x: 20px ;
+    padding-top: 60px;
+}
+.item-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5vw 5vw;
+    margin: 0;
+}
+.icon1 {
+    background: url("images/icon-location.svg") left no-repeat;
+    padding-left: 10vw;
+}
+.icon2 {
+    background: url("images/icon-phone.svg") left no-repeat;
+    padding-left: 10vw;
+}
+.icon3 {
+    background: url("images/icon-email.svg") left no-repeat;
+    padding-left: 10vw;
+}
+
+@media screen and (min-width: 800px) {
+input {
+    margin: 3vw 15vw;
+    padding: 2vw;
+}
+button {
+    padding: 2vw;
+    margin: 0 15vw;
+}
+.image{
+    max-width: 600px;
+}
+.navbar {
+    margin: 2vw 2vw;
+    padding: 2vw;
+    background-size: 200px;
+}
+.nav-item {
+    margin: 0 25px;
+}
+
+.component1 {
+    margin: 1vw 10vw;
+    padding: 5vw 5vw;
+}
+
+.viewDesk {
+    margin: 0 5vw;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.component4 {
+    margin: 2vw 2vw 10vw 2vw;
+    padding: 2vw;
+}
+.titles {
+    margin: 0 20px;
+    padding: 0;
+}
+.component5 {
+    margin: 2vw 5vw 10vw 5vw;
+    padding: 5vw 10vw;
+}
+.item-5 {
+    padding: 0 5vw;
+}
+.styleFooter {
+    flex-direction: row;
+}
+.item-footer {
+    padding: 5vw 2vw 2vw 2vw;
+    margin: 0;
+    margin-right: 10vw;
+}
+.icon1 {
+    padding-left: 40px;
+}
+.icon2 {
+    padding-left: 40px;
+}
+.icon3 {
+    padding-left: 40px;
+}
+}
